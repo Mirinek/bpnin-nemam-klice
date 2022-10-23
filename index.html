@@ -2,36 +2,39 @@
 <html lang="cs">
 
 <head>
-    <title>NemámKlíče.cz</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <title>NemámKlíče.cz</title>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <img id="logo" src="logo.jpeg" alt="logo" width="174" height="174">
-            <a href="#sluzby"><span class="navbar-brand mb-0 h1">Služby</span></a>
-            <a href="#ceny"><span class="navbar-brand mb-0 h1">Ceník</span></a>
-            <a href="#kontakty"><span class="navbar-brand mb-0 h1">Kontakty</span></a>
+<body class="container">
+    <header class="text-uppercase">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+            <img class="navbar-brand" src="logo.jpeg" alt="logo" width="174" height="174">
+            <ul class="navbar-nav row">
+                <li class="nav-item col"><a href="#sluzby"><span class="nav-link mb-0 h1">Služby</span></a></li>
+                <li class="nav-item col"><a href="#ceny"><span class="nav-link mb-0 h1">Ceník</span></a></li>
+                <li class="nav-item col"><a href="#kontakty"><span class="nav-link mb-0 h1">Kontakty</span></a></li>
+            </ul>
         </nav>
     </header>
-
     <article>
         <section>
             <h1 class="text-center h1">Služby</h1>
-            <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-brand mb-0 h1">Otevírání dveří bytu</span>
-                <span class="navbar-brand mb-0 h1">Otevírání aut</span>
-                <span class="navbar-brand mb-0 h1">Zabouchnuté klíče</span>
-                <span class="navbar-brand mb-0 h1">Zámečnický servis</span>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <ul class="navbar-nav row">
+                    <li class="nav-item col"><span class="nav-link mb-0 h1">Otevírání dveří bytu</span></li>
+                    <li class="nav-item col"><span class="nav-link mb-0 h1">Otevírání aut</span></li>
+                    <li class="nav-item col"><span class="nav-link mb-0 h1">Zabouchnuté klíče</span></li>
+                    <li class="nav-item col"><span class="nav-link mb-0 h1">Zámečnický servis</span></li>
+                </ul>
             </nav>
         </section>
         <section>
-            <h1>Ceník</h1>
+            <h1 class="text-center h1">Ceník</h1>
             <div>
                 <table class="table table-hover">
                     <thead class="thead-dark">
@@ -109,20 +112,21 @@
                 </table>
         </section>
     </article>
-    <footer>
-        <h3 class="text-center h3">Služby</h3>
+    <div class="dropdown-divider"></div>
+    <footer class="text-center">
+        <h1 class="text-center h3">Kontakty</h1>
         <div class="card-deck">
             <div class="card">
-                <h3>Telefon</h3>
-                <h4>+420 652 845 636</h4>
+                <h3 class="card-title">Telefon</h3>
+                <h4 class="card-text">+420 652 845 636</h4>
             </div>
             <div class="card">
-                <h3>Email</h3>
-                <h4>info@nemamklice.cz</h4>
+                <h3 class="card-title">Email</h3>
+                <h4 class="card-text">info@nemamklice.cz</h4>
             </div>
             <div class="card">
-                <h3>Adresa</h3>
-                <h4>Masarykovo náměstí 2799, Pardubice</h4>
+                <h3 class="card-title">Adresa</h3>
+                <h4 class="card-text">Masarykovo náměstí 2799, Pardubice</h4>
             </div>
         </div>
     </footer>
