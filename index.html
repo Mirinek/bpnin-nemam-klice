@@ -1,62 +1,116 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>NemámKlíče.cz</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css.css">
-    </head>
-    <body>
-        <div id="telo">
-            <header>
-                <div id="header">
-                    <img id="logo" src="logo.jpg" alt="logo" width="174" height="174">
-                    <nav id="menu">    
-                        <a href="#sluzby" id="rest"><strong><span>Služby</span></strong></a>
-                        <a href="#ceny" id="rest"><strong><span>Ceník</span></strong></a>
-                        <a href="#kontakty" id="rest"><strong><span>Kontakty</span></strong></a>
-                    </nav>
-                </div>
-            </header>
-               
-            <article id="sluzby">
+
+<head>
+    <title>NemámKlíče.cz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="telo">
+        <header>
+            <div id="header">
+                <img id="logo" src="logo.jpeg" alt="logo" width="174" height="174">
+                <nav id="menu">
+                    <a href="#sluzby" id="rest"><strong><span>Služby</span></strong></a>
+                    <a href="#ceny" id="rest"><strong><span>Ceník</span></strong></a>
+                    <a href="#kontakty" id="rest"><strong><span>Kontakty</span></strong></a>
+                </nav>
+            </div>
+        </header>
+
+        <article id="sluzby">
             <h1 id="sluzba">Služby</h1>
-            <div class="slz"><h3>Otevírání dveří bytu</h3></div>
-            <div class="slz"><h3>Otevírání aut</h3></div>
-            <div class="slz"><h3>Zabouchnuté klíče</h3></div>
-            <div class="slz"><h3>Zámečnický servis</h3></div>
-            </article>    
-            <article id="ceny">
-                <h1 id="cenik">Ceník</h1>
-                <div id="tables">
-                    <table id="table">
-                        <tr id="th"><th>ZABOUCHNUTÉ DVEŘE</th><th></th></tr>
-                        <tr><td><strong>Zabouchnuté dveře obyčejné </strong></td><td class="cena"><strong>350,-</strong></td></tr>
-                        <tr><td><strong>Zabouchnuté dveře s bezpečnostním kováním </strong></td><td class="cena"><strong>500,-</strong></td></tr>
-                        <tr><td><strong>Zabouchnuté dveře bezpečnostní </strong></td><td class="cena"><strong>600,-</strong></td></tr>
-                        <tr><td><strong>Zabouchnuté dveře plastové </strong></td><td class="cena"><strong>700,-</strong></td></tr>
-                    </table>
-                    <table id="table2">
-                        <tr id="th"><th>ZAMČENÉ DVEŘE</th><th></th></tr>
-                        <tr><td><strong>Zamčené dveře obyčejné </strong></td><td class="cena"><strong>890,-</strong></td></tr>
-                        <tr><td><strong>Zamčené dveře obyčejné - vložka proti odvrtání </strong></td><td class="cena"><strong>1390,-</strong></td></tr>
-                        <tr><td><strong>Zamčené dveře s bezpečnostním kováním </strong></td><td class="cena"><strong>1190,-</strong></td></tr>
-                        <tr><td><strong>Zamčené dveře s bezpečnostním kováním – vložka proti odvrtání </strong></td><td class="cena"><strong>1590,-</strong></td></tr>
-                        <tr><td><strong>Zamčené dveře bezpečnostní </strong></td><td class="cena"><strong>1890,-</strong></td></tr>
-                        <tr><td><strong>Zamčený přídavný zámek obyčejný </strong></td><td class="cena"><strong>890,-</strong></td></tr>
-                        <tr><td><strong>Zamčený přídavný zámek bezpečnostní </strong></td><td class="cena"><strong>1390,-</strong></td></tr>
-                        <tr><td><strong>Zamčený dozický, tvarový zámek </strong></td><td class="cena"><strong>990,-</strong></td></tr>
-                        <tr><td><strong>Zamčený poštovní, kancelářský, visací zámek </strong></td><td class="cena"><strong>600,-</strong></td></tr>
-                        <tr><td><strong>Zamčeno trezorový zámek </strong></td><td class="cena"><strong>2990,-</strong></td></tr>
-                    </table>
-                </div>
-            </article> 
-            <article id="kontakty">
+            <div class="slz">
+                <h3>Otevírání dveří bytu</h3>
+            </div>
+            <div class="slz">
+                <h3>Otevírání aut</h3>
+            </div>
+            <div class="slz">
+                <h3>Zabouchnuté klíče</h3>
+            </div>
+            <div class="slz">
+                <h3>Zámečnický servis</h3>
+            </div>
+        </article>
+        <article id="ceny">
+            <h1 id="cenik">Ceník</h1>
+            <div id="tables">
+                <table id="table">
+                    <tr id="th">
+                        <th>ZABOUCHNUTÉ DVEŘE</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><strong>Zabouchnuté dveře obyčejné </strong></td>
+                        <td class="cena"><strong>350,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zabouchnuté dveře s bezpečnostním kováním </strong></td>
+                        <td class="cena"><strong>500,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zabouchnuté dveře bezpečnostní </strong></td>
+                        <td class="cena"><strong>600,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zabouchnuté dveře plastové </strong></td>
+                        <td class="cena"><strong>700,-</strong></td>
+                    </tr>
+                </table>
+                <table id="table2">
+                    <tr id="th">
+                        <th>ZAMČENÉ DVEŘE</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčené dveře obyčejné </strong></td>
+                        <td class="cena"><strong>890,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčené dveře obyčejné - vložka proti odvrtání </strong></td>
+                        <td class="cena"><strong>1390,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčené dveře s bezpečnostním kováním </strong></td>
+                        <td class="cena"><strong>1190,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčené dveře s bezpečnostním kováním – vložka proti odvrtání </strong></td>
+                        <td class="cena"><strong>1590,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčené dveře bezpečnostní </strong></td>
+                        <td class="cena"><strong>1890,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčený přídavný zámek obyčejný </strong></td>
+                        <td class="cena"><strong>890,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčený přídavný zámek bezpečnostní </strong></td>
+                        <td class="cena"><strong>1390,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčený dozický, tvarový zámek </strong></td>
+                        <td class="cena"><strong>990,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčený poštovní, kancelářský, visací zámek </strong></td>
+                        <td class="cena"><strong>600,-</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zamčeno trezorový zámek </strong></td>
+                        <td class="cena"><strong>2990,-</strong></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <article id="kontakty">
             <h1 id="kontakt">Kontakty</h1>
             <div id="telefon" class="udaje">
                 <h3>Telefon</h3>
@@ -70,9 +124,10 @@ and open the template in the editor.
                 <h3>Adresa</h3>
                 <h4>Masarykovo náměstí 2799, Pardubice</h4>
             </div>
-            </article>
-        </div>
+        </article>
+    </div>
 
 
-    </body>
+</body>
+
 </html>
